@@ -108,7 +108,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Icon.Mail />
-                    Email: <a href="mailto:spet@gmail.com">support@trex.com</a>
+                    Email: <a href="mailto:info@trex.services">info@trex.services</a>
                   </li>
                   <li>
                     <Icon.PhoneCall />
@@ -127,7 +127,7 @@ const Footer = () => {
                 <ul className="social-links">
                   <li>
                     <a
-                      href="https://www.facebook.com"
+                      href="https://www.facebook.com/profile.php?id=61578260952857&mibextid=LQQJ4d"
                       className="facebook"
                       target="_blank"
                       rel="noreferrer"
@@ -135,7 +135,7 @@ const Footer = () => {
                       <Icon.Facebook />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://twitter.com"
                       className="twitter"
@@ -144,10 +144,10 @@ const Footer = () => {
                     >
                       <Icon.Twitter />
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
-                      href="https://www.instagram.com"
+                      href="https://www.instagram.com/trex20254?igsh=Y2N0N3NwNnkweXZt"
                       className="instagram"
                       target="_blank"
                       rel="noreferrer"
@@ -157,7 +157,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com"
+                      href="https://www.linkedin.com/company/t-rex-ai-solutions/"
                       className="linkedin"
                       target="_blank"
                       rel="noreferrer"

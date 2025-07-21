@@ -82,7 +82,7 @@ const Navbar = () => {
       
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                       <Link
                         to="#"
                         onClick={e => e.preventDefault()}
@@ -125,9 +125,9 @@ const Navbar = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         to="/team"
                         activeClassName="active"
@@ -136,7 +136,7 @@ const Navbar = () => {
                       >
                         Team
                       </Link>
-                    </li>
+                    </li> */}
                 <li className="nav-item">
                   <Link
                     to="/contact"

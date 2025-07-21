@@ -14,11 +14,9 @@ const ContactInfo = () => {
                 </div>
                 <h3>Email Us</h3>
                 <p>
-                  <a href="mailto:support@trex.com">support@trex.com</a>
+                  <a href="mailto:info@trex.services">info@trex.services</a>
                 </p>
-                <p>
-                  <a href="mailto:partnerships@trex.com">partnerships@trex.com</a>
-                </p>
+            
               </div>
             </div>
 
