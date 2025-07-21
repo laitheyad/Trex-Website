@@ -35,7 +35,7 @@ const NavbarStyleThree = () => {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-md navbar-light">
             <Link
-              to="/it-startup"
+              to="/T-Rex"
               onClick={toggleNavbar}
               className="navbar-brand"
             >
@@ -71,7 +71,7 @@ const NavbarStyleThree = () => {
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
-                        to="/it-startup"
+                        to="/T-Rex"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"
@@ -82,7 +82,7 @@ const NavbarStyleThree = () => {
 
                     <li className="nav-item">
                       <Link
-                        to="/it-startup-2"
+                        to="/T-Rex-2"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"

@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `T-Rex - Gatsby React Technology & IT Business Company Template`,
-    description: `Gatsby React Technology & IT Business Company Template`,
-    author: `@envytheme`,
-    siteUrl: `https://spet-gatsby.envytheme.com`,
+    title: `T-Rex`,
+    description: `. Modular, multi-platform, and built for growth. Unlock actionable guidance, smart scheduling, and revenue optimization. Join the next wave of the creator economy.`,
+    author: `@T-Rex`,
+    siteUrl: `https://trex.services`,
   },
   plugins: [
     `gatsby-plugin-image`,

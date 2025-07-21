@@ -67,7 +67,7 @@ const NavbarStyleTwo = () => {
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
-                        to="/it-startup"
+                        to="/T-Rex"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"
@@ -78,7 +78,7 @@ const NavbarStyleTwo = () => {
 
                     <li className="nav-item">
                       <Link
-                        to="/it-startup-2"
+                        to="/T-Rex-2"
                         activeClassName="active"
                         onClick={toggleNavbar}
                         className="nav-link"

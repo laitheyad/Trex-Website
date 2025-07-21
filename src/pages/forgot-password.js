@@ -18,7 +18,7 @@ const ForgotPasswordPage = () => (
       <div className="container">
         <div className="auth-form">
           <div className="auth-head">
-            <Link to="/it-startup">
+            <Link to="/T-Rex">
               <img src={Logo} alt="Logo" />
             </Link>
             <p>

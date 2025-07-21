@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
             <Link
-              to="/it-startup"
+              to="/"
               onClick={toggleNavbar}
               className="navbar-brand"
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                   <Link
-                    to="/T-Rex"
+                    to="/"
                     // onClick={e => e.preventDefault()}
                     className="nav-link"
                   >
@@ -152,9 +152,9 @@ const Navbar = () => {
 
             <div className="others-option">
           
-              <Link to="/contact" className="btn btn-light">
+              {/* <Link to="/contact" className="btn btn-light">
                 Support
-              </Link>
+              </Link> */}
 
             
             </div>
