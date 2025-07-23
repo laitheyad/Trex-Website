@@ -13,6 +13,7 @@ import PricingStyleTwo from "../components/PricingPlans/PricingStyleTwo"
 import PricingStyleThree from "../components/PricingPlans/PricingStyleThree"
 import PricingStyleFour from "../components/PricingPlans/PricingStyleFour"
 import OurServices from "../components/DigitalAgency/OurServices"
+import FeedbackStyleTwo from "../components/Common/FeedbackStyleTwo"
 
 const IndexPage = () => (
   <Layout>
@@ -26,6 +27,7 @@ const IndexPage = () => (
   <PricingStyleThree />
 
   <FunFactsArea />
+  <FeedbackStyleTwo />
   {/* <Projects /> */}
   {/* <PricingStyleOne /> */}
   {/* <PricingStyleTwo /> */}

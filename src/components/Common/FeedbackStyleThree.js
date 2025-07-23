@@ -22,13 +22,13 @@ const FeedbackStyleThree = () => {
       <div className="ml-feedback-area ptb-80">
         <div className="container">
           <div className="section-title st-fs-28">
-            <span className="sub-title">Testimonials</span>
-            <h2>Our Clients Feedback</h2>
+            {/* <span className="sub-title">Testimonials</span> */}
+            <h2>Our Partners</h2>
             <div className="bar"></div>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            </p> */}
           </div>
 
           <Swiper

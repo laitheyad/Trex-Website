@@ -3,9 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, Autoplay } from "swiper"
 
 // Client Images
-import Client1 from "../../images/client-image/client1.jpg"
-import Client2 from "../../images/client-image/client2.jpg"
-import Client3 from "../../images/client-image/client3.jpg"
+import FasterCapitalLogo from "../../images/FasterCapitalLogo.png"
+
 
 // Shape Images
 import Shape1 from "../../images/shape1.png"
@@ -19,12 +18,12 @@ const FeedbackStyleTwo = () => {
       <div className="feedback-area ptb-80">
         <div className="container">
           <div className="section-title">
-            <h2>What users Saying</h2>
+            <h2>Our Investors</h2>
             <div className="bar"></div>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            </p> */}
           </div>
 
           <Swiper
@@ -44,67 +43,22 @@ const FeedbackStyleTwo = () => {
               <div className="single-feedback-item">
                 <div className="client-info align-items-center">
                   <div className="image">
-                    <img src={Client1} alt="client" />
+                    <img src={FasterCapitalLogo} alt="client" height={70} width={50} style={{objectFit: "contain" }} />
                   </div>
 
                   <div className="title">
-                    <h3>Steve Lucy</h3>
-                    <span>Lead Developer at Envato</span>
+                    <h3>Faster Capital</h3>
+                    {/* <span>Lead Developer at Envato</span> */}
                   </div>
                 </div>
 
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
+                FasterCapital supported us during our first investment campaign with strategic guidance, technical insight, and genuine commitment to our vision playing a key role in our early journey.
                 </p>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="single-feedback-item">
-                <div className="client-info align-items-center">
-                  <div className="image">
-                    <img src={Client2} alt="client" />
-                  </div>
-
-                  <div className="title">
-                    <h3>David Luiz</h3>
-                    <span>Lead Developer at Envato</span>
-                  </div>
-                </div>
-
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-feedback-item">
-                <div className="client-info align-items-center">
-                  <div className="image">
-                    <img src={Client3} alt="client" />
-                  </div>
-
-                  <div className="title">
-                    <h3>Marta Smith</h3>
-                    <span>Lead Developer at Envato</span>
-                  </div>
-                </div>
-
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </SwiperSlide>
+      
           </Swiper>
         </div>
 
